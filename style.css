@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*background-color: rgba(209, 205, 201, 0.359);*/
+}
+a{
+    text-decoration: none;
+}
+a .active{
+    color: red;
+}
+/* a :hover{
+    color: aqua;
+    background-color: black;
+} */
+.bodys{
+    margin-top: 9vh;
+    margin-left: 5vw;
+
+}
+.container{
+    margin-top: 2vh;
+    background-color: rgba(219, 213, 213, 0.596);
+    width: 80vw;
+    padding: 3vh 5vh;
+
+}
+button{
+    padding: .5vh;
+    margin-top: 3vh;
+    border-color: aliceblue;
+   }
+.btn :hover{
+    color: aqua;
+    background-color: black;
+   }
+   .btn
+   {
+    padding: .5vh;
+    margin-top: 3vh;
+       display: flex;
+      flex-direction: column;
+      width: fit-content;
+   }
+
+.details{
+    margin-top: 2vh;
+
+}
+.details p{
+    margin: 1vh;
+}
+.edit{
+    background-color: rgb(66, 203, 189);
+    border-color:rgb(66, 203, 189) ;
+}
+.delete{
+    background-color: rgba(66, 203, 189, 0.725);
+    border-color: rgba(66, 203, 189, 0.725);
+}
